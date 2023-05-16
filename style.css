@@ -1,0 +1,63 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+}
+
+/* Estilos de encabezado */
+header {
+    color: black;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+/* Estilos de secciones */
+section {
+    flex-grow: 0;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: gray;
+    margin: 0 20px;
+    display: flex;
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 18px;
+    border: 2px solid #000;
+    background-color: rosybrown;
+    display: flex;
+}
+
+section h3 {
+    margin-top: 0;
+    font-size: 18px;
+    border: 2px solid #000;
+    background-color: red;
+    display: flex;
+}
+
+section h4 {
+    margin-top: 0;
+    font-size: 18px;
+    border: 2px solid #000;
+    background-color: yellowgreen;
+    display: flex;
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 767px) {
+    .contenedor {
+        flex-direction: column;
+    }
+}
